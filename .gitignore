@@ -1,0 +1,24 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Ignore NuGet packages and restore files
+.nuget/
+packages/
+*.nupkg
+*.nuspec
+
+# Ignore local development files
+appsettings.Development.json
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.tmp
